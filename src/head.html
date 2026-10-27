@@ -12,7 +12,7 @@
 <meta name="keywords" content="kinetic typography, 3d typography, webgl kinetic text, three.js typography, kinetic text motion graphics, 3d text animator, text shattering physics, procedural shaders, typography playground, font animator, svg text export, Teja Priyan">
 <meta name="author" content="Teja Priyan">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<link rel="canonical" href="https://tejapriyan.github.io/Typecraft/">
+<link rel="canonical" href="https://typecraft1.vercel.app/">
 <meta name="theme-color" content="#07080b">
 
 <!-- Google Site Verification -->
@@ -20,7 +20,7 @@
 
 <!-- Open Graph / Social Media -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://tejapriyan.github.io/Typecraft/">
+<meta property="og:url" content="https://typecraft1.vercel.app/">
 <meta property="og:title" content="TYPECRAFT — 3D Kinetic Typography Playground">
 <meta property="og:description" content="Sculpt words in physical 3D space. Grab, throw, twist, break and rebuild letters with real-time physics and procedural shaders.">
 <meta property="og:site_name" content="TYPECRAFT">
@@ -32,7 +32,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://tejapriyan.github.io/Typecraft/">
+<meta name="twitter:url" content="https://typecraft1.vercel.app/">
 <meta name="twitter:title" content="TYPECRAFT — 3D Kinetic Typography Playground">
 <meta name="twitter:description" content="Interactive 3D kinetic typography studio running entirely in your browser with real-time WebGL physics and procedural sound.">
 <meta name="twitter:creator" content="@TejaPriyan">
@@ -45,9 +45,9 @@
   "@graph": [
     {
       "@type": "WebApplication",
-      "@id": "https://tejapriyan.github.io/Typecraft/#webapp",
+      "@id": "https://typecraft1.vercel.app/#webapp",
       "name": "TYPECRAFT",
-      "url": "https://tejapriyan.github.io/Typecraft/",
+      "url": "https://typecraft1.vercel.app/",
       "description": "Browser-native 3D kinetic typography playground and real-time motion graphics studio.",
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "All modern web browsers with WebGL support",
@@ -75,7 +75,7 @@
     },
     {
       "@type": "FAQPage",
-      "@id": "https://tejapriyan.github.io/Typecraft/#faq",
+      "@id": "https://typecraft1.vercel.app/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -288,7 +288,10 @@ body.exporting #ui,body.exporting #landing,body.exporting #landTop,body.exportin
   #toast{top:calc(118px + env(safe-area-inset-top,0px))}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+#landing nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 18px;max-width:92vw;margin:18px auto 0;font:13px system-ui}#landing nav a{color:var(--dim);pointer-events:auto;text-underline-offset:4px}#landing nav a:focus-visible{outline:2px solid white;outline-offset:4px}
 </style>
+<meta name="google-adsense-account" content="ca-pub-8817990111687358">
 </head>
 <body>
 <canvas id="gl" tabindex="0" aria-label="Typography canvas. Use arrow keys to select letters, Space to impact, B to break, R to rebuild."></canvas>
@@ -303,6 +306,7 @@ body.exporting #ui,body.exporting #landing,body.exporting #landTop,body.exportin
     <button class="cta" id="btnDemo">WATCH DEMO</button>
   </div>
   <p id="landhint">Grab a letter. Throw it. Text is physical.</p>
+<nav aria-label="Site information"><a href="./guides/index.html">Guides</a><a href="./about.html">About</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a></nav>
 </section>
 
 <div id="ui" aria-label="Studio controls">
